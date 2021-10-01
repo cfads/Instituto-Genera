@@ -1,8 +1,33 @@
-li{
-    
-    display: inline-block;
+nav li{
+    list-style: none;        
 }
 
 a{
     text-decoration: none;
 }
+
+.fundo{
+    z-index: 0;
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    opacity: 0.2;
+}
+
+dt{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+}
+
+dl dd{
+    text-align: justify;
+}
+
+ol li{
+    margin-top: 20px;
+}
+
+
+
+
