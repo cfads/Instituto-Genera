@@ -52,11 +52,27 @@ ol li{
     height: 450px;
 }
 
+.text-justify {
+    text-align: justify;
+}
 
+#facaparte-container {
+    background-color: #294171;
+    padding: 60px 0px;
+    margin-top: 20px;
+}
 
+.facaparte-box {
+    padding: 40px;
+}
 
+.facaparte-green {
+    background-color: #3EB595;
+    color: white;
+}
 
-
-
-
+.facaparte-blue {
+    background-color: #389BC2;
+    color: white;
+}
 
