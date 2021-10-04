@@ -42,15 +42,17 @@ ol li{
  }
 .carousel{
     
-    width: 180vh;
+    width: 216vh;
     height: 450px;
-    left: -145px;
+    left: -310px
   
 }
 .carousel-inner{
-    width: 180vh;
+    width: 280vh;
     height: 450px;
 }
+
+
 
 
 
