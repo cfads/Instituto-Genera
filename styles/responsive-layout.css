@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px){
+    .carousel{
+    
+        width: 50vh;
+        height: 28vh;
+      
+    }
+    .carousel-inner{
+        width: 50vh;
+        height: 28vh;
+    }
+    
+    
+}
