@@ -1,3 +1,7 @@
+body {
+    padding-top: 70px;
+}
+
 nav li{
     list-style: none;        
     cursor: pointer;
@@ -29,6 +33,10 @@ ol li{
     margin-top: 20px;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .font{
     font-family: 'Anton', sans-serif;
     margin: 0;
@@ -57,5 +65,23 @@ ol li{
 
 
 
+#facaparte-container {
+    background-color: #294171;
+    padding: 60px 0px;
+    margin-top: 20px;
+}
 
+.facaparte-box {
+    padding: 40px;
+}
+
+.facaparte-green {
+    background-color: #3EB595;
+    color: white;
+}
+
+.facaparte-blue {
+    background-color: #389BC2;
+    color: white;
+}
 
