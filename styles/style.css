@@ -1,5 +1,6 @@
 nav li{
     list-style: none;        
+    cursor: pointer;
 }
 
 a{
@@ -7,12 +8,12 @@ a{
 }
 
 .fundo{
-    z-index: 0;
+    z-index: -999;
     width:100%;
     height: 100vh;
     position: fixed;
     opacity: 0.2;
-}
+ }
 
 dt{
     font-family: 'Averia Serif Libre', cursive;
@@ -26,6 +27,18 @@ dl dd{
 
 ol li{
     margin-top: 20px;
+}
+
+.font{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    color: #b0afb3;
+    opacity: 0.8;
+}
+
+.myCard{
+    margin: 20px auto;
+    width: 95%;
 }
 
 
