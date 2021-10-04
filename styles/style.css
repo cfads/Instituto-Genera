@@ -36,4 +36,17 @@ ol li{
     text-align: justify;
 }
 
+.facaparte-box {
+    padding: 40px;
+}
+
+.facaparte-green {
+    background-color: #3EB595;
+    color: white;
+}
+
+.facaparte-blue {
+    background-color: #389BC2;
+    color: white;
+}
 
