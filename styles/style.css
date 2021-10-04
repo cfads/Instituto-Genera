@@ -36,6 +36,12 @@ ol li{
     text-align: justify;
 }
 
+#facaparte-container {
+    background-color: #294171;
+    padding: 60px 0px;
+    margin-top: 20px;
+}
+
 .facaparte-box {
     padding: 40px;
 }
