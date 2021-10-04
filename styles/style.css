@@ -28,6 +28,15 @@ ol li{
     margin-top: 20px;
 }
 
-
+.carousel{
+    
+    width: 180vh;
+    height: 450px;
+  
+}
+.carousel-inner{
+    width: 180vh;
+    height: 450px;
+}
 
 
