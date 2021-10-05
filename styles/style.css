@@ -1,78 +1,78 @@
-nav li{
-    list-style: none;        
-    cursor: pointer;
+nav li {
+  list-style: none;
+  cursor: pointer;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.fundo{
-    z-index: -999;
-    width:100%;
-    height: 100vh;
-    position: fixed;
-    opacity: 0.2;
- }
-
-dt{
-    font-family: 'Averia Serif Libre', cursive;
-    font-size: 1.5rem;
-    margin: 1.4rem 0;
+.fundo {
+  z-index: -999;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  opacity: 0.2;
 }
 
-dl dd{
-    text-align: justify;
+dt {
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 1.5rem;
+  margin: 1.4rem 0;
 }
 
-ol li{
-    margin-top: 20px;
+dl dd {
+  text-align: justify;
 }
 
-.font{
-    font-family: 'Anton', sans-serif;
-    margin: 0;
-    color: #b0afb3;
-    opacity: 0.8;
+ol li {
+  margin-top: 20px;
 }
 
-.myCard{
-    margin: 20px auto;
-    width: 95%;
- }
-.carousel{
-    
-    width: 100%;
-    min-height:450px;
-    
-  
+.zoom:hover {
+  transform: scale(1.04);
 }
-.carousel-inner{
-    width: 100%;
-    height: 450px;
+
+.font {
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  color: #b0afb3;
+  opacity: 0.8;
+}
+
+.myCard {
+  margin: 20px auto;
+  width: 95%;
+}
+.carousel {
+  width: 100%;
+  min-height: 450px;
+}
+.carousel-inner {
+  width: 100%;
+  height: 450px;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 #facaparte-container {
-    background-color: #294171;
-    padding: 60px 0px;
-    margin-top: 20px;
+  background-color: #294171;
+  padding: 60px 0px;
+  margin-top: 20px;
 }
 
 .facaparte-box {
-    padding: 40px;
+  padding: 40px;
 }
 
 .facaparte-green {
-    background-color: #3EB595;
-    color: white;
+  background-color: #3eb595;
+  color: white;
 }
 
 .facaparte-blue {
-    background-color: #389BC2;
-    color: white;
+  background-color: #389bc2;
+  color: white;
 }
-
