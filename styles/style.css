@@ -179,3 +179,13 @@ ol li {
   background: #fefefe;
   border-color: #125688;
 }
+
+.conselho-foto {
+  width: 128px;
+  height: 128px;
+}
+
+.conselho-foto img {
+  height: 100%;
+  object-fit: cover;
+}
