@@ -29,6 +29,10 @@ ol li {
   margin-top: 20px;
 }
 
+.projetosH {
+  min-height: 100px;
+}
+
 .zoom:hover {
   transform: scale(1.04);
 }
