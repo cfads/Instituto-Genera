@@ -28,9 +28,19 @@ dl dd {
 ol li {
   margin-top: 20px;
 }
+/*
+.titulosH{
+  min-height: 76px;
+}
 
+.vcenter-item{
+  display: flex;
+  align-items: center;
+  
+}
+*/
 .projetosH {
-  min-height: 100px;
+  min-height: 96px;
 }
 
 .zoom:hover {
