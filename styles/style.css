@@ -221,3 +221,34 @@ ol li {
   height: 100%;
   object-fit: cover;
 }
+
+.fundo-genera {
+  background-color: #2b3e64;
+  color: #fff;
+}
+
+.destaque-genera {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cabecalho-genera {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.missao {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+.missao strong {
+  font-weight: 600;
+}
+
+.icone-objetivo {
+  font-size: 48px;
+  color: #2b3e64;
+}
