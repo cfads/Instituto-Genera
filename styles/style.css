@@ -221,3 +221,8 @@ ol li {
   height: 100%;
   object-fit: cover;
 }
+
+.icone-objetivo {
+  font-size: 48px;
+  color: #2b3e64;
+}
