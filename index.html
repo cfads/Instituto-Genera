@@ -23,11 +23,9 @@
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
   <!-- Animate CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <!-- Nosso CSS -->
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -113,7 +111,7 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-center missao animate__animated animate__fadeInUp">
+          <p class="text-center missao aos-item" data-aos="fade-up">
             Nossa missão é<br><strong>desenvolver projetos sustentáveis</strong>, <br><strong>transformadores</strong> e
             que agreguem <strong>capital social</strong>.
           </p>
@@ -132,7 +130,7 @@
         </div>
       </div>
 
-      <div class="row justify-content-center mt-4 animate__animated animate__backInUp">
+      <div class="row justify-content-center mt-4 aos-item" data-aos="fade-up">
         <div class="col-sm-3 text-center mb-5">
           <span class="icone-objetivo"><i class="fas fa-mouse-pointer"></i></span>
           <p class="text-center mt-3">Produzir e difundir tecnologias<br /> e conhecimentos na área social</p>
@@ -162,7 +160,7 @@
         </div>
       </div>
 
-      <div class="row justify-content-center mt-5 animate__animated animate__backInUp">
+      <div class="row justify-content-center mt-5 aos-item" data-aos="fade-up">
         <div class="col-sm-3 text-center mb-5">
           <span class="icone-objetivo"><i class="fas fa-search"></i></span>
           <p class="text-center mt-3">Servir de órgão consultivo a governos, empresas e organismos e entidades sociais,
@@ -237,6 +235,11 @@
     crossorigin="anonymous"></script>
   <script src="scripts/index.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    });
+  </script>
 </body>
 
 </html>
