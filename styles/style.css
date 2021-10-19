@@ -191,6 +191,10 @@ a {
   color: #fff;
 }
 
+.color-genera {
+  color: #2b3e64;
+}
+
 .destaque-genera {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
@@ -231,4 +235,28 @@ a {
 .parceiros-logos {
   max-width: 150px;
   max-height: 131px;
+  margin: 20px;
+}
+
+.conteudo-img-card {
+  height: 190px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.titulo-noticias {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.subtitulo-noticias {
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
 }
