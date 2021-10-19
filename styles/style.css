@@ -7,44 +7,8 @@ a {
   text-decoration: none;
 }
 
-.fundo {
-  z-index: -999;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  opacity: 0.2;
-}
-
-dt {
-  font-family: "Averia Serif Libre", cursive;
-  font-size: 1.5rem;
-  margin: 1.4rem 0;
-}
-
-dl dd {
-  text-align: justify;
-}
-
-ol li {
-  margin-top: 20px;
-}
-/*
-.titulosH{
-  min-height: 76px;
-}
-
-.vcenter-item{
-  display: flex;
-  align-items: center;
-  
-}
-*/
 .projetosH {
   min-height: 96px;
-}
-
-.zoom:hover {
-  transform: scale(1.04);
 }
 
 .font {
@@ -103,18 +67,18 @@ ol li {
 }
 
 .footer .endereco {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .footer .endereco h4 {
-    font-size: 16px;
-    margin-top: .25rem;
-    margin-bottom: 0;
+  font-size: 16px;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
 }
 
 .footer .endereco span {
   display: block;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
   margin-bottom: 0;
 }
 
@@ -228,19 +192,19 @@ ol li {
 }
 
 .destaque-genera {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .cabecalho-genera {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
 
 .missao {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 32px;
 }
 
