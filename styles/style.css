@@ -216,3 +216,14 @@ a {
   font-size: 48px;
   color: #2b3e64;
 }
+
+.projetos-foto {
+  width: 150px;
+  height: 150px;
+  
+}
+
+.projetos-foto img {
+  height: 100%;
+  right: 50px;
+}
