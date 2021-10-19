@@ -226,3 +226,26 @@ a {
   max-height: 131px;
   margin: 20px;
 }
+
+.conteudo-img-card {
+  height: 190px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.titulo-noticias {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.subtitulo-noticias {
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
