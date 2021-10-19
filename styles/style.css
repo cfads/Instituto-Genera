@@ -227,3 +227,8 @@ a {
   height: 100%;
   right: 50px;
 }
+
+.parceiros-logos {
+  max-width: 150px;
+  max-height: 131px;
+}
