@@ -216,3 +216,9 @@ a {
   font-size: 48px;
   color: #2b3e64;
 }
+
+.parceiros-logos {
+  max-width: 150px;
+  max-height: 131px;
+  margin: 20px;
+}
