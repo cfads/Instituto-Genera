@@ -260,3 +260,7 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+.container-parceiros{
+  min-height: 72vh;
+}
