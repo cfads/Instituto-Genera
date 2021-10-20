@@ -90,9 +90,9 @@ a {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 3.125rem;
-  height: 3.125rem;
-  border: 0.125rem solid transparent;
+  width: 5rem;
+  height: 5rem;
+  border: 0.25rem solid transparent;
   padding: 0;
   text-decoration: none;
   text-align: center;
@@ -113,34 +113,10 @@ a {
   transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter,
-.fa-facebook-f,
+.rounded-social-buttons ,
 .fa-linkedin,
-.fa-youtube,
 .fa-instagram {
-  font-size: 25px;
-}
-
-.rounded-social-buttons .social-button.facebook {
-  background: #3b5998;
-}
-
-.rounded-social-buttons .social-button.facebook:hover,
-.rounded-social-buttons .social-button.facebook:focus {
-  color: #3b5998;
-  background: #fefefe;
-  border-color: #3b5998;
-}
-
-.rounded-social-buttons .social-button.twitter {
-  background: #55acee;
-}
-
-.rounded-social-buttons .social-button.twitter:hover,
-.rounded-social-buttons .social-button.twitter:focus {
-  color: #55acee;
-  background: #fefefe;
-  border-color: #55acee;
+  font-size: 70px;
 }
 
 .rounded-social-buttons .social-button.linkedin {
@@ -152,17 +128,6 @@ a {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
-}
-
-.rounded-social-buttons .social-button.youtube {
-  background: #bb0000;
-}
-
-.rounded-social-buttons .social-button.youtube:hover,
-.rounded-social-buttons .social-button.youtube:focus {
-  color: #bb0000;
-  background: #fefefe;
-  border-color: #bb0000;
 }
 
 .rounded-social-buttons .social-button.instagram {
