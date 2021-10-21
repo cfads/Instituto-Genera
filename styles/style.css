@@ -189,18 +189,27 @@ a {
 .projetos-foto {
   width: 150px;
   height: 150px;
-  
+  object-fit: cover;  
 }
 
-.projetos-foto img {
+.parceiros-colecao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.parceiro-item {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.parceiro-item > * > img {
+  width: 100%;
   height: 100%;
-  right: 50px;
-}
-
-.parceiros-logos {
-  max-width: 150px;
-  max-height: 131px;
-  margin: 20px;
+  object-fit: contain;
 }
 
 .conteudo-img-card {
