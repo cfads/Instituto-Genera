@@ -189,12 +189,7 @@ a {
 .projetos-foto {
   width: 150px;
   height: 150px;
-  
-}
-
-.projetos-foto img {
-  height: 100%;
-  right: 50px;
+  object-fit: cover;  
 }
 
 .parceiros-logos {
