@@ -196,21 +196,21 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
 }
 
 .parceiro-item {
-  width: 180px;
-  height: 180px;
-  padding: 20px;
+  width: 140px;
+  height: 140px;
+  padding: 8px;
   margin: 10px;
 }
 
-.parceiro-item > * > img {
+.parceiro-logo {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 
 .conteudo-img-card {
   height: 190px;
