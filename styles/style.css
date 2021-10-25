@@ -48,11 +48,17 @@ a {
 .facaparte-green {
   background-color: #3eb595;
   color: white;
+  min-height: 370px;
 }
 
 .facaparte-blue {
   background-color: #389bc2;
   color: white;
+  min-height: 370px;
+}
+
+.facaparte-box p{
+  min-height: 120px;
 }
 
 .footer {
