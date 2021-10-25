@@ -219,11 +219,12 @@ a {
 
 .titulo-noticias {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .subtitulo-noticias {
+  font-size: 14px;
   color: #6c757d;
   font-weight: 600;
   text-transform: uppercase;
@@ -236,4 +237,8 @@ a {
 
 .container-parceiros{
   min-height: 72vh;
+}
+
+.display-1 {
+  font-family: 'Raleway', sans-serif;
 }
