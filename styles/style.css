@@ -241,7 +241,7 @@ a {
   text-decoration: inherit;
 }
 
-.container-parceiros{
+.container-parceiros {
   min-height: 72vh;
 }
 
@@ -256,4 +256,16 @@ a {
 
 .projetos-coordenacao {
   text-transform: uppercase;
+}
+
+.projetos-foto {
+  width: 240px;
+  height: 135px;
+}
+
+.projetos-foto img {
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
