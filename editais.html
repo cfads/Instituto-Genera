@@ -6,13 +6,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Instituto Genera</title>
-  <link rel="icon" href="img/favicon.png" />
+  <title>Editais &lsaquo; Instituto Genera</title>
+  <link rel="icon" href="assets/images/favicon.png" />
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@400;600;800&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
@@ -27,14 +28,16 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
   <!-- Nosso CSS -->
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
+  <!-- INÍCIO NAVBAR -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="" class="d-inline-block align-text-top" width="164" height="32" />
+        <img src="assets/images/logo_horizontal.png" alt="" class="d-inline-block align-text-top" width="164"
+          height="32" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,6 +80,7 @@
       </div>
     </div>
   </nav>
+  <!-- FIM NAVBAR -->
 
   <div class="container" style="min-height: 90vh;">
     <div class="text-center mt-5">
@@ -160,18 +164,19 @@
 
     </div>-->
 
-  <div class="footer" id="contatos" style="min-height: 10vh;">
+  <!-- FOOTER -->
+  <div class="footer" id="contatos">
     <div class="container">
       <div class="row">
         <div class="col-sm-2 col-md-4">
           <a class="navbar-brand" href="#">
-            <img src="images/logo_transparent.png" alt="" class="d-inline-block align-text-top" width="180" height="141" />
+            <img src="assets/images/logo.png" alt="" class="d-inline-block align-text-top" width="180" height="141" />
           </a>
         </div>
 
         <div class="col-sm-2 col-md-4">
           <address class="endereco pt-3 pt-sm-0">
-            <br/>
+            <br />
             <h4>Av. Paris, n° 121, sala 05 - Bonsucesso</h4>
             <span>Rio de Janeiro, RJ, CEP 21041-020</span>
             <span><strong>(21) 3030-1601</strong></span>
@@ -191,12 +196,19 @@
       </div>
     </div>
   </div>
+  <!-- FIM FOOTER -->
 
+  <!-- SCRIPTS FOOTER -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
-  <script src="scripts/index.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+
+  <script src="assets/js/index.js"></script>
 </body>
 
 </html>
