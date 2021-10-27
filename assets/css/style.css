@@ -269,3 +269,18 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/home/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 512px;
+}
+
+.hero-text {
+  color: white;
+
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
