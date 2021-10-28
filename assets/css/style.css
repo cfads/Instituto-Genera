@@ -3,6 +3,10 @@ nav li {
   cursor: pointer;
 }
 
+.nav-item a:hover {
+  color: #0b3e80 !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,7 +61,7 @@ a {
   min-height: 370px;
 }
 
-.facaparte-box p{
+.facaparte-box p {
   min-height: 170px;
 }
 
@@ -118,7 +122,7 @@ a {
   transform: rotate(360deg);
 }
 
-.rounded-social-buttons ,
+.rounded-social-buttons,
 .fa-linkedin,
 .fa-instagram {
   font-size: 70px;
@@ -194,7 +198,7 @@ a {
 .projetos-foto {
   width: 150px;
   height: 150px;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .parceiros-colecao {
@@ -216,7 +220,6 @@ a {
   object-fit: contain;
 }
 
-
 .conteudo-img-card {
   height: 190px;
   object-fit: cover;
@@ -224,7 +227,7 @@ a {
 }
 
 .titulo-noticias {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
@@ -236,7 +239,9 @@ a {
   text-transform: uppercase;
 }
 
-.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
   color: inherit;
   text-decoration: inherit;
 }
@@ -245,12 +250,14 @@ a {
   min-height: 72vh;
 }
 
-.display-1, .display-2, .display-3 {
-  font-family: 'Raleway', sans-serif;
+.display-1,
+.display-2,
+.display-3 {
+  font-family: "Raleway", sans-serif;
 }
 
 .projetos-titulo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
 
@@ -271,7 +278,8 @@ a {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/home/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../images/home/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
