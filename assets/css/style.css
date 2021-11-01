@@ -8,6 +8,7 @@ nav li {
 }
 
 a {
+  color:black;
   text-decoration: none;
 }
 
@@ -291,4 +292,8 @@ a {
 
   text-align: center;
   text-shadow: 2px 2px 4px #000;
+}
+
+.email{
+  color: #0b3e80;
 }
