@@ -4,10 +4,11 @@ nav li {
 }
 
 .nav-item a:hover {
-  color: #0b3e80 !important;
+  color: #294171 !important;
 }
 
 a {
+  color: #294171;
   text-decoration: none;
 }
 
